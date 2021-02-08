@@ -1,0 +1,80 @@
+
+
+@media (max-width: 1000px) {
+    .main__info {
+        display: block;
+    }
+
+    .left-bar__about img {
+        max-width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 960px) {
+    h1 {
+        font-size: 45px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    .main__info-about {
+        display: block;
+    }
+
+    .about-glass__page {
+        display: flex;
+        justify-content: center;
+    }
+
+    .left-bar__about,
+    .right-bar__about {
+        padding: 0;
+        margin: 2rem;
+    }
+}
+
+@media (max-width: 620px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .middle-social {
+        display: block;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .middle-info {
+        position: absolute;
+        width: 80%;
+        top: 30%;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
+
+    .left-bar__about,
+    .right-bar__about {
+        padding: 0;
+        margin: 2rem 0rem;
+    }
+
+    .top {
+        display: block;
+    }
+
+    .top > .sec {
+        border-bottom-left-radius: 20px;
+        margin-top: 10px;
+    }
+}
